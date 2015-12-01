@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript">	
+		$(document).ready(function (){
+			$("button").click(function () {
+				$("#rocket").animate({bottom: '900px'}, "slow", function() {
+					setTimeout(function() {
+					$("#rocket").removeAttr('style'); 
+     				}, 2000);
+						
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>Click "Blast Off!" to launch the rocket into outer space!</h1>
+	<button id="button" type="button" value="Blast Off!">Blast Off!</button>
+	<img id="rocket" src="rocket.png">
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+button {
+	padding: 5%;
+	border-radius: 500px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
+
+img {
+	position: absolute;
+	bottom: 0;
+	right: 25px;
+}
+
+body {
+	background-image: url("space.jpg");
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+	padding-bottom: 20%;
+}
